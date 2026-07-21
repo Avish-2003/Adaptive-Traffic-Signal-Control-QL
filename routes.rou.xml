@@ -1,0 +1,11 @@
+<routes>
+    <vType id="car" length="4.7" minGap="1.3" maxSpeed="10" accel="2.6" decel="4.5"/>
+    <route id="NS" edges="N2C C2S"/>
+    <route id="SN" edges="S2C C2N"/>
+    <route id="EW" edges="E2C C2W"/>
+    <route id="WE" edges="W2C C2E"/>
+    <flow id="f1" type="car" route="NS" begin="0" end="3600" vehsPerHour="1200"/>
+    <flow id="f2" type="car" route="SN" begin="0" end="3600" vehsPerHour="1200"/>
+    <flow id="f3" type="car" route="EW" begin="0" end="3600" vehsPerHour="1200"/>
+    <flow id="f4" type="car" route="WE" begin="0" end="3600" vehsPerHour="1200"/>
+</routes>
